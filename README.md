@@ -1,6 +1,7 @@
 # StackOverflow Search App
 
-The application returns list of questions regarding entered text by using StackExchange API .
+The application returns list of questions regarding entered text by using StackExchange API.
+
 
 ## Server run
 Run the command below from project folder: 
@@ -12,5 +13,5 @@ Run the command below from project folder:
  
  `npm install && npm start`
  
-## Use app
+### Use app
  Follow `http://localhost:3000` and type your request text in input field.
