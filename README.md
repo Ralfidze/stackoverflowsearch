@@ -13,5 +13,5 @@ Run the command below from project folder:
  
  `npm install && && npm start`
  
-### Use app
+## Use app
  Follow `http://localhost:3000` and type your request text in input field.
