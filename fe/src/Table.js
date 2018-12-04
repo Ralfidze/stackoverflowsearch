@@ -28,7 +28,7 @@ const imageStyle = {
 }
 
 function isSearched(searchTerm){
-    return (item) => searchTerm != '' ? item.title.toLowerCase().includes(searchTerm.toLowerCase()) : ''; 
+    return (item) => searchTerm !== '' ? item.title.toLowerCase().includes(searchTerm.toLowerCase()) : ''; 
 }
 function IsAnswered(props) {
         return (
@@ -70,7 +70,7 @@ function Table({list, pattern }) {
                     </span>
                     <span style={midColumn}>
                         {item.owner.display_name}
-                        <img src={item.owner.profile_image} style={imageStyle}/>
+                        <img src={item.owner.profile_image} style={imageStyle} alt="Owner"/>
                     </span>
                 </div>   
             )

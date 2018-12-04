@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Developer from './Developer'
 import SearchComponent from './Search'
 import TableComponent from './Table';
 import Header from './Header'
