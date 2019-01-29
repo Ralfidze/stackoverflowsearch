@@ -40,7 +40,6 @@ function IsAnswered(props) {
             );
   }
 function Table({list, pattern }) {
-        if(!list){ return null }; 
         return(
         <div className="table">
             <div className="table-row-header">                

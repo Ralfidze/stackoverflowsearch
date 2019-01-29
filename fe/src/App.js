@@ -73,11 +73,13 @@ class App extends Component {
                   onChange = {this.onSearchChange}
              >
             </SearchComponent>
-            <TableComponent
+            { result && <TableComponent
                 list = {result}
                 pattern = {searchTerm}
             />
+            }
         </div>
+        
     );
   }
 }
